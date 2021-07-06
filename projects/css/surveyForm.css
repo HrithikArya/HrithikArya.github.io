@@ -1,0 +1,128 @@
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-image: linear-gradient(90deg, rgba(60, 60, 160, 1),
+    rgba(135, 135, 205, 1));
+}
+
+h1 {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h1, p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+lable {
+  display:  flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.6rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 10px;
+  line-height: inherit;
+  font-size: inherit;
+}
+
+.container {
+  width: 100%;
+  margin: 4rem auto 0 auto;
+}
+
+@media (min-width: 550px) {
+  .container {
+    max-width: 520px;
+  }
+}
+
+@media (min-width: 760px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.header {
+  padding: 0 0.63rem;
+  margin-buttom: 2rem;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+
+form {
+  background: rgba(27, 27, 50, 0.8);
+  padding: 3rem 0.5rem;
+  border-radius: 2rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2rem;
+  }
+}
+
+.form-group {
+  margin: 0 auto 1.5rem auto;
+  padding: 0.5rem;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  padding: 0.4rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  transition: border-color 1s ease-in-out;
+}
+
+.form-input {
+  border-color: #80bdff;
+    outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.radio-input,
+.checkbox-input {
+  display: inline-block;
+  margin: 0.635rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.text-input {
+  min-height: 150px;
+  width: 100px;
+  padding: 0.6rem;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: green;
+  color: inherit;
+  border-radius: 3px;
+  cursor: pointer;
+}
